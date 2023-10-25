@@ -226,6 +226,18 @@ input, select, textarea {
 		width: 1400px;
 	}
 
+	.technologies {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.tech-rectangles {
+		margin-bottom: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
@@ -254,6 +266,10 @@ input, select, textarea {
 
 			.container {
 				width: 100%;
+			}
+
+			.tech-rectangles {
+				justify-content: center;
 			}
 
 		}
