@@ -1823,6 +1823,10 @@ input, select, textarea {
 				width: auto;
 			}
 
+	.resume {
+		width: 200px;
+	}
+
 /* List */
 
 	ul {
@@ -2095,6 +2099,14 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
+		}
+
+		#header .middle .resume-link {
+			/* border: 1px solid red; */
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			border-bottom: 0px solid black;
 		}
 
 		#header .bottom {
