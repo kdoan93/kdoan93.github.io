@@ -2101,7 +2101,7 @@ input, select, textarea {
 			flex-grow: 1;
 		}
 
-		#header .resume-link {
+		.resume-link {
 			/* border: 1px solid red; */
 			display: flex;
 			flex-direction: column;
