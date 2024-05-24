@@ -2069,6 +2069,14 @@ input, select, textarea {
 
 /* Header */
 
+.resume-link {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 0px solid black;
+}
+
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2101,13 +2109,7 @@ input, select, textarea {
 			flex-grow: 1;
 		}
 
-		.resume-link {
-			/* border: 1px solid red; */
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			border-bottom: 0px solid black;
-		}
+
 
 		#header .bottom {
 			-moz-flex-shrink: 0;
