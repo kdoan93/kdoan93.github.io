@@ -1752,7 +1752,6 @@ input, select, textarea {
 
 	.aContainer {
 		display: flex;
-		flex-direction: row;
 	}
 
 	.aContainer a {
