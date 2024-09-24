@@ -1751,7 +1751,6 @@ input, select, textarea {
 		}
 
 	.aContainer {
-		/* border: 1px solid red; */
 		display: flex;
 		flex-direction: row;
 	}
@@ -1762,7 +1761,6 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 		.aContainer {
-			/* border: 1px solid blue; */
 			flex-direction: column;
 		}
 
