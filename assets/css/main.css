@@ -1750,6 +1750,27 @@ input, select, textarea {
 
 		}
 
+	.aContainer {
+		/* border: 1px solid red; */
+		display: flex;
+		flex-direction: row;
+	}
+
+	.aContainer a {
+		margin: 20px;
+	}
+
+	@media screen and (max-width: 736px) {
+		.aContainer {
+			/* border: 1px solid blue; */
+			flex-direction: column;
+		}
+
+		.aContainer a {
+			margin: 10px 0;
+		}
+	}
+
 /* Sections/Article */
 
 	section, article {
