@@ -2320,7 +2320,11 @@ input, select, textarea {
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #f5fafa;
+			}
+
+			#main > section.five {
+				background-color: #ecf1f1;
 			}
 
 /* Wide */
